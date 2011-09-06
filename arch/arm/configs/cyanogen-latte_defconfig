@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux kernel version: 2.6.35.13
-# Tue Sep  6 15:39:35 2011
+# Tue Sep  6 15:52:51 2011
 #
 CONFIG_ARM=y
 CONFIG_SYS_SUPPORTS_APM_EMULATION=y
@@ -1041,7 +1041,9 @@ CONFIG_TUN=y
 # CONFIG_NETDEV_10000 is not set
 CONFIG_WLAN=y
 # CONFIG_HOSTAP is not set
-# CONFIG_BCM4329  is not set
+CONFIG_BCM4329=m
+CONFIG_BCM4329_FW_PATH="/system/etc/firmware/fw_bcm4329.bin"
+CONFIG_BCM4329_NVRAM_PATH="/proc/calibration"
 # CONFIG_BCM4329_ENABLE_CSCAN is not set
 # CONFIG_BCM4329_ALLOW_ARP is not set
 
