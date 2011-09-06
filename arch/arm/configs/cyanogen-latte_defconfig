@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux kernel version: 2.6.35.13
-# Tue Sep  6 15:08:51 2011
+# Tue Sep  6 15:39:35 2011
 #
 CONFIG_ARM=y
 CONFIG_SYS_SUPPORTS_APM_EMULATION=y
@@ -846,7 +846,12 @@ CONFIG_BT_HCIUART_LL=y
 # CONFIG_AF_RXRPC is not set
 CONFIG_FIB_RULES=y
 CONFIG_WIRELESS=y
+CONFIG_WIRELESS_EXT=y
+CONFIG_WEXT_CORE=y
+CONFIG_WEXT_PROC=y
+CONFIG_WEXT_PRIV=y
 # CONFIG_CFG80211 is not set
+CONFIG_WIRELESS_EXT_SYSFS=y
 # CONFIG_LIB80211 is not set
 
 #
@@ -1036,7 +1041,9 @@ CONFIG_TUN=y
 # CONFIG_NETDEV_10000 is not set
 CONFIG_WLAN=y
 # CONFIG_HOSTAP is not set
-# CONFIG_BCM4329 is not set
+# CONFIG_BCM4329  is not set
+# CONFIG_BCM4329_ENABLE_CSCAN is not set
+# CONFIG_BCM4329_ALLOW_ARP is not set
 
 #
 # Enable WiMAX (Networking options) to see the WiMAX drivers
